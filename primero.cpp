@@ -4,14 +4,11 @@
 
 int main() {
 	
-	int base, altura, area;
+	int radio=10,area;
 	
-	base=10;
-	altura=10;
+	area = radio * radio * 3.1416;
 	
-	area = base * altura;
-	
-	printf("El area del cuadrado es %i ", area);
+	printf("El area del circulo es %i ", area);
 
 	return 0;
 }
